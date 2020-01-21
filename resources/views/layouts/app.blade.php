@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="/css/app.css">
   </head>
   <body>
+    @include('inc.navbar')
     <div class="container">
       @yield('content')
     </div>
