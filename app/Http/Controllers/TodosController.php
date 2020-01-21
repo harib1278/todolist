@@ -77,7 +77,7 @@ class TodosController extends Controller
      */
     public function edit($id)
     {
-        //
+        return $id;
     }
 
     /**
